@@ -16,15 +16,12 @@
   overflow: hidden;
   transition: transform 1s ease, box-shadow 0.3s ease;
   border: 1px solid black;
-  -webkit-transition: transform 1s ease, box-shadow 0.3s ease;
-  -moz-transition: transform 1s ease, box-shadow 0.3s ease;
-  -ms-transition: transform 1s ease, box-shadow 0.3s ease;
-  -o-transition: transform 1s ease, box-shadow 0.3s ease;
 }
 
 .products-listing_item:hover {
   transform: scale(1.025);
   box-shadow: 5px 5px rgba(172, 172, 172, 0.5);
+  background-color: #fafaeb;
 }
 
 .product-item_content {

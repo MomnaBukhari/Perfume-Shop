@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Typewriter from "typewriter-effect";
 import "../styling/About.css";
+import Footer from "./Footer";
 
 function About() {
   return (
@@ -63,6 +64,7 @@ function About() {
           are waiting.
         </p>
       </section>
+      <Footer/>
     </>
   );
 }

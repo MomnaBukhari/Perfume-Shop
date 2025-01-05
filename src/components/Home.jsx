@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Hero from "./blocks/Hero";
 import Products from "./blocks/Products";
+import Footer from "./Footer";
 import "../styling/Home.css";
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
         </div>
       </div>
       <Products limit={7} />
+      <Footer/>
     </>
   );
 }
