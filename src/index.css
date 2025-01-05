@@ -16,6 +16,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  /* cursor: url("../public/images/cursor.png"), auto; */
 }
 
 ::selection {
