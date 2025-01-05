@@ -1,0 +1,40 @@
+/* About Section Styling */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 1;
+  /* Ensures the content appears above the video */
+  position: relative;
+}
+
+.Hero-header-h1 {
+  margin-top: 0%;
+  font-size: 2500%;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.Hero-header-h3 {
+  margin-top: -30%;
+  font-size: 250%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
