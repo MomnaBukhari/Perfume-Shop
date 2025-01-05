@@ -1,0 +1,112 @@
+/* Full viewport container */
+.contact-container {
+  display: flex;
+  height: 80vh;
+  overflow: hidden;
+}
+
+/* Left half styling */
+.left-half {
+  flex: 1;
+}
+
+.contact-image {
+  margin-left: 3%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right half styling */
+.right-half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mailbox container */
+.mailbox {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  background: #ecdff9;
+  border-radius: 10px;
+  border: 1px solid #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mailbox:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.mailbox.open {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Mailbox label */
+.mail-label {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Mailbox lid */
+.mailbox-lid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: #b897ba;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.mailbox.open .mailbox-lid {
+  transform: translateY(-20px);
+  background: #555;
+}
+
+/* Mailbox paper */
+.mailbox-paper {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 100px;
+  background: #fff;
+  border: 1px solid #969696;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.mailbox-paper a {
+  text-decoration: underline;
+  color: #69245d;
+}
+
+/* Paper slide-down animation */
+@keyframes slide-down {
+  from {
+    transform: translate(-50%, -20px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,20 @@
+/* Home Section Styling */
+
+.center-box {
+  background-color: transparent;
+  padding: 0% 15% 5% 15%;
+  position: relative;
+  background-color: #ffffff00;
+}
+.center-mini-box {
+  margin-top: -5%;
+  background-color: #e6fafa;
+  padding: 4%;
+  text-align: center;
+  z-index: 1;
+  border: 1px solid black;
+  transition: background-color 2s ease;
+}
+.center-mini-box:hover {
+  background-color: #e6c7da;
+}
