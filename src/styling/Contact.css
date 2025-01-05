@@ -1,0 +1,74 @@
+/* Contact Section */
+.Contact {
+  padding: 20px;
+  color: #333;
+}
+
+.Contact h2 {
+  text-align: center;
+  color: #444;
+}
+
+.Contact p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item h3 {
+  color: #555;
+}
+
+.contact-item p {
+  margin: 5px 0;
+}
+
+.contact-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Map Section */
+.map-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.map-placeholder {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.map-thumbnail {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.map-hint {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+iframe {
+  border-radius: 5px;
+}
