@@ -40,3 +40,15 @@ body {
   background-color: #e8e0e5;
   outline: 1px solid rgb(0, 0, 0);
 }
+
+#cursor {
+  height: 40px;
+  width: 40px;
+  background-color: #ffc6e4;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
